@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background: rgb(246, 246, 176);
+}
+
+.left > ul {
+  display: flex;
+  gap: 8px;
+}
+
+.right > ul {
+  display: flex;
+  gap: 8px;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  background: white;
+  color: tomato;
+  padding: 20px 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: blue;
+}
